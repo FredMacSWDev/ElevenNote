@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NoteController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -314,6 +315,10 @@
     <ProjectReference Include="..\ElevenNote.Models\ElevenNote.Models.csproj">
       <Project>{25477b65-6967-4836-989c-de823b2ca71f}</Project>
       <Name>ElevenNote.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Services\ElevenNote.Services.csproj">
+      <Project>{9AB5D692-DE05-4BAE-8DBE-9F661EAD06BE}</Project>
+      <Name>ElevenNote.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
